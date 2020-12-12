@@ -1,15 +1,14 @@
 {
-  "name": "eatera",
+  "name": "Front-End-PRJ-Starter",
   "version": "1.0.0",
-  "description": "a business website for restaurant and cafe shop",
+  "description": "a Front End Development Starter Project",
   "main": "index.js",
-  "repository": "https://github.com/cryptomasdar/eatera.git",
+  "repository": "https://github.com/cryptomasdar/Front-End-PRJ-Starter.git",
   "author": "Kada Guetouache",
   "license": "GPL-3.0 License",
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
-    "bootstrap": "^4.5.0",
     "browser-sync": "^2.26.10",
     "del": "^5.1.0",
     "fs": "^0.0.1-security",
