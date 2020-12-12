@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/cryptomasdar/Front-End-PRJ-Starter.git",
   "author": "Kada Guetouache",
-  "license": "GPL-3.0 License",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
