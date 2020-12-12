@@ -22,7 +22,7 @@ var sassState = "";
 var env = process.env.NODE_ENV === "production" || "development";
 
 if (env == "development") {
-	outputDir = "./dist";
+	outputDir = "./build";
 	sassState = "expanded";
 } else if (env == "production") {
 	outputDir = "./production";
@@ -42,7 +42,7 @@ const imgs = [ "./source/SourceApp/images/*.*" ];
 
 // Remove source files
 async function remove(){ 
-	await del(["./production", "./dist"]);
+	await del(["./production", "./build"]);
 }
 
 // Nunjucks and HTML 
