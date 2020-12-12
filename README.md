@@ -14,14 +14,26 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Installing
 
-To get started with this project clone this repository.
+1 - To get started with this project clone this repository.
 
-then type in the project folder `yarn install` to install all node modules that are needed to run this project.
+2 - If you are using npm type `npm install` or `yarn install` in case you are using yarn to install all node modules from the package.json file.
+
+## Launching the Gulp Server
+
+Open a new Terminal tab and type `gulp` if installed gulp globally or `npm gulp` , `yarn gulp`.
+
+After running the server a folder named `build` will be created with your processed code.
+
+## Project Structure
+
+* use the `package.json` file to update you project name and description along with you name.
+* `source` folder is where you will write the code its has templates folder that contains html/nunjucks files scss folder for styling and js for JavaScript you can add a folder with name of images that will have all your images.
+* `build` this folder contains all the processed code **HTML CSS JavaScript** from the source folder.
 
 
 ## Gulp Envirements
 
-This project comes with two enviements *Development* and *Production*.
+This project comes with two enviements ***Development*** and ***Production***.
 the gulp file in this project has issue on turning on the production envirement that makes you stuck at development envirements to fix this.
 to fix this issue open gulpfile.js replace this line:
 
@@ -30,8 +42,6 @@ to fix this issue open gulpfile.js replace this line:
 with this new one:
 
 `var env = process.env.NODE_ENV === "development" || "production";`
-
-The style for this project is in the main file index.php.
 
 ## Authors
 
